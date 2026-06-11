@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the header section */
+
+header {
+    height: 10vh;
+    width: 100vw;
+    padding: 20px 30px;
+    background-color: #fff8ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo-img {
+    height: 100%;
+}
+
+.header-logo-text {
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+    padding: 0 10px;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+nav > ul > a {
+    color: black;
+    text-decoration: none;
+    padding: 0 12px;
+}
+
+nav > ul > a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for hero section */
+
+.hero-container {
+    min-height: 90vh;
+    padding: 120px;
+    background-color: brown;
+    background-image: url(img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    border-image: fill 1 linear-gradient(rgba(0, 0, 0, 0.6));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container > h1 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: rgb(9, 243, 41);
+    font-size: 4rem;
+    margin: 0.075em;
+    text-align: center;
+}
+
+.hero-container > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.hero-container > button {
+    background-color: #018ede;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 0.35em 0.65em;
+    margin: 1.25em;
+    cursor: pointer;
+}
+
+.hero-container > button:hover {
+    background-color: rgba(1, 141, 222, 0.9);
+}
+
+/* Styles for the main content grid section */
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    max-width: 1200px;
+    margin: 0 auto;
+    column-gap: 34px;  
+    row-gap: 34px;      
+    padding: 60px 0;   
+}
+
+.card {
+    grid-column: span 3;     
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #244065;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.55);
+    overflow: hidden;
+}
+
+.card:nth-child(1),
+.card:nth-child(2) {
+    grid-row: span 2;
+}
+
+.card img {
+    width: 100%;
+    height: 180px; 
+    object-fit: cover;
+    display: block;
+}
+
+.card:nth-child(1) img,
+.card:nth-child(2) img {   
+    height: 534px; 
+}
+
+.card-text {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-text h2 {
+    font-size: 1.2rem;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: rgb(79, 226, 21);
+}
+
+.card-text p {
+    font-size: 0.85rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.4;
+}
+
+/* Styles for footer section */
+
+footer {
+    height: 300px;
+    background-color: #ff656f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > .contact-info {
+    text-align: center;
+    color: white;
+}
+
+footer > .contact-info > h3 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: rgb(129, 255, 135);
+    padding: 0;
+}
+
+footer > .contact-info > p {
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05rem;
+    padding: 0;
+    margin: 0;
+}
+
+footer > .contact-info > .contacts {
+    padding: 2em;
+    font-size: 0.9rem;
+    color: white;
+}
