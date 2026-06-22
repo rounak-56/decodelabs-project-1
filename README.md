@@ -2,7 +2,7 @@
 
 A modern, static landing page designed for a fictional travel service "Travel India", this project serves as the foundational milestone for the DecodeLabs frontend internship, focusing heavily on semantic HTML structure and complex CSS grid layouts to showcase incredible destinations across the country.
 
-> **[View Live Demo Here](https://rounak-56.github.io/Decodelabs-Project-1/)**
+> **[View Live Demo Here](https://rounak-56.github.io/decodelabs-project-1/)**
 <br>
 
 ## Project Objective
