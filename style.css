@@ -79,6 +79,7 @@ nav > ul > a:hover {
 }
 
 .hero-container > button {
+    color: black;
     background-color: #018ede;
     border: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
