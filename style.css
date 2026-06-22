@@ -82,7 +82,6 @@ nav > ul > a:hover {
 .hero-container > button {
     background-color: #018ede;
     border: none;
-    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     padding: 0.35em 0.65em;
@@ -103,7 +102,7 @@ nav > ul > a:hover {
     margin: 0 auto;
     column-gap: 34px;  
     row-gap: 34px;      
-    padding: 60px 0;   
+    padding: 60px 1.5vw;   
 }
 
 .card {
